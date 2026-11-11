@@ -1,0 +1,10 @@
+eded = int(input("eded daxil edin:"))
+step=0
+while eded != 1:
+    if eded % 2 == 0:
+        eded = eded // 2
+    else:
+        eded = 3 * eded + 1
+    print("son eded;",eded)
+    step+=1
+print("addimlarin sayi;", step)
